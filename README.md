@@ -89,7 +89,7 @@ Screenshots can be found in the `/screenshots` directory.
 
 * Review Claims Dashboard
 
-![Review Claims](screenshots/Admin Claims Page.jpg)
+![Review Claims](Screenshots/admin-claims-page.jpg)
 
 ## Running the Project
 
