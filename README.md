@@ -61,7 +61,7 @@ Screenshots can be found in the `/screenshots` directory.
 
 * Registration Page
 
-![Registration Page](screenshots/Registration Page.jpg)
+![Registration Page](Screenshots/registration.jpg)
 
 ---
 
@@ -69,19 +69,19 @@ Screenshots can be found in the `/screenshots` directory.
 
 * Home Screen
 
-![Home Page](screenshots/Home Page (Student).jpg)
+![Home Page](Screenshots/student-home.jpg)
 
 * Create Lost/Found Item
 
-![Create Item](screenshots/Submit Item Page.jpg)
+![Create Item](Screenshots/create-item.jpg)
 
 * Item Details
 
-![Item Details](screenshots/Item List.jpg)
+![Item Details](Screenshots/item-list.jpg)
 
 * My Claims
 
-![My Claims](screenshots/My Claims.jpg)
+![My Claims](Screenshots/my-claims.jpg)
 
 ---
 
