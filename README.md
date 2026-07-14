@@ -6,9 +6,9 @@ Developed as an individual project during the Diploma in Computer Engineering at
 
 ## Project Overview
 
-The Lost and Found system digitises the process of reporting and recovering lost items. Users can create accounts, post lost or found items, browse existing listings, and submit claims for items posted by other users.
+The Lost and Found system digitises the process of reporting and recovering lost items. Users can register using a valid Temasek Polytechnic email address, browse existing listings, create lost or found item posts, and submit claims for items posted by other users.
 
-The Android application communicates with a PHP backend through API requests, while MySQL is used to store user, item, and claim information.
+The Android application communicates with a PHP backend through API requests, while MySQL stores user, item, and claim information. The system also includes separate interfaces for staff/students and administrators, allowing administrators to review and manage submitted claims.
 
 ## Key Features
 
@@ -41,9 +41,7 @@ The Android application communicates with a PHP backend through API requests, wh
 
 ## My Contributions
 
-This was an individual project.
-
-My responsibilities included:
+As this was an individual project, my contributions included:
 
 * Designing and developing the Android application
 * Implementing user authentication and account management
@@ -103,15 +101,13 @@ Screenshots can be found in the `/screenshots` directory.
 
 #### 1. Set Up the Backend
 
-Move the backend PHP files into:
+Move the backend PHP files into your XAMPP `htdocs` directory.
 
-`C:\xampp\htdocs\LostFoundBackend`
+Start Apache and MySQL using XAMPP.
 
-Start Apache and MySQL from XAMPP.
+Create a MySQL database and import the project database.
 
-Create a MySQL database and import the project database schema.
-
-Update database credentials in:
+Update the database credentials in:
 
 `db_connect.php`
 
@@ -121,13 +117,16 @@ Open the Android project in Android Studio.
 
 Allow Gradle dependencies to sync completely.
 
-Update the API base URL in the application source code so it points to your backend server.
+Update the API base URL in the application source code so it points to your local backend server.
 
 #### 3. Run the Application
 
-Launch an Android emulator or connect a physical Android device.
+Build and run the project from Android Studio using either:
 
-Build and run the project from Android Studio.
+* An Android emulator, or
+* A physical Android device connected via USB.
+
+The Android application will communicate with the local PHP backend through the configured API endpoints.
 
 ## Notes
 
@@ -138,4 +137,4 @@ Build and run the project from Android Studio.
 
 ## Project Status
 
-Completed (Individual Academic Project)
+Completed (Individual Project)
