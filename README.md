@@ -13,6 +13,7 @@ The Android application communicates with a PHP backend through API requests, wh
 ## Key Features
 
 * User registration and login
+* Registration restricted to valid student/staff email addresses
 * Browse lost and found listings
 * Create lost or found item posts
 * Submit claims for listed items
