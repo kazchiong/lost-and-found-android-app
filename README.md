@@ -56,25 +56,39 @@ My responsibilities included:
 
 Screenshots can be found in the `/screenshots` directory.
 
-* Login Screen
+### Authentication
 
-![Login Screen](screenshots/login.png)
+* Login Page
+
+![Login Page](screenshots/login.png)
+
+---
+
+### Staff & Student Features
 
 * Home Screen
 
-![Home Screen](screenshots/home.png)
+![Home Page](screenshots/home.png)
+
+* Create Lost/Found Item
+
+![Create Item](screenshots/create-item.png)
 
 * Item Details
 
 ![Item Details](screenshots/item-details.png)
 
-* Create Item
+* My Claims
 
-![Create Item](screenshots/create-item.png)
+![My Claims](screenshots/my-claims.png)
 
-* Claims Page
+---
 
-![Claims Page](screenshots/claims.png)
+### Administrator Features
+
+* Review Claims Dashboard
+
+![Review Claims](screenshots/admin-review-claims.png)
 
 ## Running the Project
 
